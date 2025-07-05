@@ -11,6 +11,9 @@ import thunno from './thunno-logo.png';
 import balance from './balance-logo.svg'
 import './App.css';
 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import PTR from './PeriodicTable';
+
 function Description({str}) {
   return (
     <div className="desc">
@@ -112,11 +115,22 @@ function Content() {
 
 function App() {
   return (
-    <div className="app">
-      <Header></Header>
-      <Content></Content>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/periodic-table" element={<PTR />} />
+        <Route
+          path="/*"
+          element={
+            <div className="app">
+              <Header />
+              <Content />
+            </div>
+          }
+        />
+      </Routes>
+    </Router>
   );
 }
+
 
 export default App;
