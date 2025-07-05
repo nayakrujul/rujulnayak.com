@@ -11,7 +11,7 @@ import thunno from './thunno-logo.png';
 import balance from './balance-logo.svg'
 import './App.css';
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import PTR from './PeriodicTable';
 
 function Description({str}) {
@@ -99,7 +99,7 @@ function Content() {
       ></Project>
       <Project
         name="Periodic Table" img={pt} year={2024} desc="Interactive online periodic table"
-        src="https://github.com/nayakrujul/periodic-table/" lnk="https://rujulnayak.com/periodic-table/"
+        src="https://github.com/nayakrujul/periodic-table/" lnk="https://nayakrujul.github.io/periodic-table/"
       ></Project>
       <Project
         name="Plot On The Go" img={potg} year={2022} desc="Python library for plotting graphs of data"
