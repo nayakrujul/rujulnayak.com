@@ -1,0 +1,209 @@
+.app {
+  width: 100vw;
+  max-width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #111111;
+  color: #e0f0f0;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 65%;
+  width: 200px;
+  padding: 40px 20px;
+  background-color: #222222;
+  border-radius: 20px;
+  border: 2px solid #383838;
+}
+
+.logo {
+  max-width: 160px;
+}
+
+.name {
+  margin: 20px 0px;
+}
+
+.desc {
+  background-color: #333333;
+  padding: 10px;
+  border-radius: 20px;
+  text-wrap-style: pretty;
+}
+
+.links {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.link {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+.icon {
+  max-height: 50px;
+  filter: brightness(0.5);
+  transition: filter 200ms;
+}
+
+.link:hover .icon {
+  filter: brightness(1.0);
+}
+
+.content {
+  width: calc(75% - 200px);
+  height: 65%;
+  padding: 40px;
+  background-color: #222222;
+  border-radius: 20px;
+  border: 1px solid #383838;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-items: stretch;
+  overflow-y: auto;
+}
+
+.content::-webkit-scrollbar {
+  width: 12px;
+}
+
+.content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.content::-webkit-scrollbar-thumb {
+  background: #e0f0f0;
+  border-radius: 20px;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+
+.project {
+  flex-basis: calc(50% - 50px);
+  border: 1px solid #404040;
+  border-radius: 20px;
+  padding: 20px;
+  transition: background-color 500ms;
+  position: relative;
+  margin: 20px 0px;
+}
+
+.project:hover {
+  background-color: #252525;
+}
+
+.project > * {
+  transition: filter 500ms;
+}
+
+.project:hover > *:not(.buttonbar) {
+  filter: blur(2px);
+}
+
+.projimg {
+  max-height: 50px;
+}
+
+.buttonbar {
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-flow: row nowrap;
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+
+.project:hover .buttonbar {
+  opacity: 1;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  margin: 0px 5px;
+  filter: brightness(0.8);
+  transition: filter 250ms;
+}
+
+.button:hover {
+  filter: brightness(1.0);
+}
+
+.btnimg {
+  max-width: 40px;
+  max-height: 40px;
+  padding: 10px;
+}
+
+
+@media (max-width: 999px) {
+  .app {
+    flex-flow: column nowrap;
+  }
+
+  .header {
+    height: 60px;
+    width: 80%;
+    flex-flow: row nowrap;
+    padding: 20px;
+  }
+
+  .logo {
+    max-height: 40px;
+  }
+
+  .name {
+    margin: 0px;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+
+  .desc {
+    width: 300px;
+    max-width: 50%;
+  }
+
+  .links {
+    width: auto;
+  }
+
+  .content {
+    width: 80%;
+    height: calc(70% - 60px);
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .project {
+    flex-basis: 80%;
+  }
+}
+
+@media (max-width: 499px) {
+  .desc {
+    display: none;
+  }
+}

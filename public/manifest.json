@@ -1,0 +1,15 @@
+{
+  "short_name": "Rujul Nayak",
+  "name": "Rujul Nayak's Personal Website",
+  "icons": [
+    {
+      "src": "logo-square.png",
+      "sizes": "552x552",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
