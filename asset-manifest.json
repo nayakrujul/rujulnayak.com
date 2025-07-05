@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.483adcf0.css",
+    "main.js": "/static/js/main.7dd69c9a.js",
+    "static/js/453.ad8b2e62.chunk.js": "/static/js/453.ad8b2e62.chunk.js",
+    "static/media/vtp6-logo.png": "/static/media/vtp6-logo.67e447fa3c69f2fdfaf5.png",
+    "static/media/logo.png": "/static/media/logo.0ce7560547300ec22d41.png",
+    "static/media/thunno-logo.png": "/static/media/thunno-logo.a8f983bf4a978d69e9bc.png",
+    "static/media/csrn-logo.png": "/static/media/csrn-logo.f633db792dbf4338d638.png",
+    "static/media/gh.svg": "/static/media/gh.147e3ee0970a4e3849b542783d5d8483.svg",
+    "static/media/pt-logo.svg": "/static/media/pt-logo.71c8fbf6566a0d1fd6c469edb6ec98d4.svg",
+    "static/media/python-logo.svg": "/static/media/python-logo.c8df6ffae8c987f4438106c30d786e62.svg",
+    "static/media/demo.svg": "/static/media/demo.845f84b9a51c0b24be9793dcadfb5311.svg",
+    "static/media/balance-logo.svg": "/static/media/balance-logo.a98f806df2f6041f5ed508a2df36127f.svg",
+    "static/media/potg-logo.svg": "/static/media/potg-logo.237c9a74370cdcb79cf851b9238600e1.svg",
+    "index.html": "/index.html",
+    "main.483adcf0.css.map": "/static/css/main.483adcf0.css.map",
+    "main.7dd69c9a.js.map": "/static/js/main.7dd69c9a.js.map",
+    "453.ad8b2e62.chunk.js.map": "/static/js/453.ad8b2e62.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.483adcf0.css",
+    "static/js/main.7dd69c9a.js"
+  ]
+}
