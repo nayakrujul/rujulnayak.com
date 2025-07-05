@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.483adcf0.css",
-    "main.js": "/static/js/main.7dd69c9a.js",
+    "main.js": "/static/js/main.3b6fb72f.js",
     "static/js/453.ad8b2e62.chunk.js": "/static/js/453.ad8b2e62.chunk.js",
     "static/media/vtp6-logo.png": "/static/media/vtp6-logo.67e447fa3c69f2fdfaf5.png",
     "static/media/logo.png": "/static/media/logo.0ce7560547300ec22d41.png",
@@ -15,11 +15,11 @@
     "static/media/potg-logo.svg": "/static/media/potg-logo.237c9a74370cdcb79cf851b9238600e1.svg",
     "index.html": "/index.html",
     "main.483adcf0.css.map": "/static/css/main.483adcf0.css.map",
-    "main.7dd69c9a.js.map": "/static/js/main.7dd69c9a.js.map",
+    "main.3b6fb72f.js.map": "/static/js/main.3b6fb72f.js.map",
     "453.ad8b2e62.chunk.js.map": "/static/js/453.ad8b2e62.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.483adcf0.css",
-    "static/js/main.7dd69c9a.js"
+    "static/js/main.3b6fb72f.js"
   ]
 }
